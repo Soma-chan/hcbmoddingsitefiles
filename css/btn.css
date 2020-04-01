@@ -1,0 +1,33 @@
+.button {
+	display: inline-block;
+	padding: 10px 14px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	cursor: pointer;
+	position: relative;
+	background-image: url("../img/download.png");
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90px;
+	height: 40px;
+}
+.button:hover {
+	background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+}
+.button:active {
+	background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+	border-style: inset;
+}
